@@ -40,3 +40,12 @@ Record a short [Loom video](https://www.loom.com) showing how it works, includin
 ### 4. Deadline
 
 Please complete and submit the result within 24 hours unless otherwise discussed.
+
+
+####
+npx hardhat test
+
+####  
+npx hardhat test --grep "can be minted"
+npx hardhat test --grep "and keeps track of holders when minting and burning"
+npx hardhat test --grep "and allows for withdrawals even after holder relinquishes tokens"
